@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E829EC41DEE5CF200C623EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E829EC31DEE5CF200C623EC /* main.m */; };
+		8E829EC71DEE5CF200C623EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E829EC61DEE5CF200C623EC /* AppDelegate.m */; };
+		8E829ECA1DEE5CF200C623EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E829EC91DEE5CF200C623EC /* ViewController.m */; };
+		8E829ECD1DEE5CF200C623EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E829ECB1DEE5CF200C623EC /* Main.storyboard */; };
+		8E829ECF1DEE5CF200C623EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E829ECE1DEE5CF200C623EC /* Assets.xcassets */; };
+		8E829ED21DEE5CF200C623EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E829ED01DEE5CF200C623EC /* LaunchScreen.storyboard */; };
+		8E829EDD1DEE5CF200C623EC /* CustomTranformDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E829EDC1DEE5CF200C623EC /* CustomTranformDemoTests.m */; };
+		8E829EE91DEE5D1500C623EC /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E829EE81DEE5D1500C623EC /* TwoViewController.m */; };
+		8E829EED1DEE70D100C623EC /* HLCustomTrantions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E829EEC1DEE70D100C623EC /* HLCustomTrantions.m */; };
+		D0DF3E464F650766FA2A793F /* libPods-CustomTranformDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8261CCF97FF6469646BB6A58 /* libPods-CustomTranformDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E829ED91DEE5CF200C623EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E829EB71DEE5CF200C623EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E829EBE1DEE5CF200C623EC;
+			remoteInfo = CustomTranformDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049BADBC637BA36E450EC9C9 /* Pods-CustomTranformDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTranformDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTranformDemo/Pods-CustomTranformDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0FA221863D5E9DB0D0919084 /* Pods-CustomTranformDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTranformDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTranformDemo/Pods-CustomTranformDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8261CCF97FF6469646BB6A58 /* libPods-CustomTranformDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomTranformDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E829EBF1DEE5CF200C623EC /* CustomTranformDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTranformDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E829EC31DEE5CF200C623EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E829EC51DEE5CF200C623EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E829EC61DEE5CF200C623EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E829EC81DEE5CF200C623EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E829EC91DEE5CF200C623EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E829ECC1DEE5CF200C623EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E829ECE1DEE5CF200C623EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E829ED11DEE5CF200C623EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E829ED31DEE5CF200C623EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E829ED81DEE5CF200C623EC /* CustomTranformDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTranformDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E829EDC1DEE5CF200C623EC /* CustomTranformDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTranformDemoTests.m; sourceTree = "<group>"; };
+		8E829EDE1DEE5CF200C623EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E829EE71DEE5D1500C623EC /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoViewController.h; path = ../TwoViewController.h; sourceTree = "<group>"; };
+		8E829EE81DEE5D1500C623EC /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoViewController.m; path = ../TwoViewController.m; sourceTree = "<group>"; };
+		8E829EEA1DEE633E00C623EC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8E829EEB1DEE70D100C623EC /* HLCustomTrantions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCustomTrantions.h; sourceTree = "<group>"; };
+		8E829EEC1DEE70D100C623EC /* HLCustomTrantions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCustomTrantions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E829EBC1DEE5CF200C623EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DF3E464F650766FA2A793F /* libPods-CustomTranformDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E829ED51DEE5CF200C623EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A06B3811B743FB27AA2D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8261CCF97FF6469646BB6A58 /* libPods-CustomTranformDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E829EB61DEE5CF200C623EC = {
+			isa = PBXGroup;
+			children = (
+				8E829EC11DEE5CF200C623EC /* CustomTranformDemo */,
+				8E829EDB1DEE5CF200C623EC /* CustomTranformDemoTests */,
+				8E829EC01DEE5CF200C623EC /* Products */,
+				BCEFD6D0AFF64C74E9D9FEA4 /* Pods */,
+				40A06B3811B743FB27AA2D2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E829EC01DEE5CF200C623EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E829EBF1DEE5CF200C623EC /* CustomTranformDemo.app */,
+				8E829ED81DEE5CF200C623EC /* CustomTranformDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E829EC11DEE5CF200C623EC /* CustomTranformDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E829EC51DEE5CF200C623EC /* AppDelegate.h */,
+				8E829EC61DEE5CF200C623EC /* AppDelegate.m */,
+				8E829EC81DEE5CF200C623EC /* ViewController.h */,
+				8E829EC91DEE5CF200C623EC /* ViewController.m */,
+				8E829EEB1DEE70D100C623EC /* HLCustomTrantions.h */,
+				8E829EEC1DEE70D100C623EC /* HLCustomTrantions.m */,
+				8E829EE71DEE5D1500C623EC /* TwoViewController.h */,
+				8E829EE81DEE5D1500C623EC /* TwoViewController.m */,
+				8E829ECB1DEE5CF200C623EC /* Main.storyboard */,
+				8E829ECE1DEE5CF200C623EC /* Assets.xcassets */,
+				8E829ED01DEE5CF200C623EC /* LaunchScreen.storyboard */,
+				8E829ED31DEE5CF200C623EC /* Info.plist */,
+				8E829EC21DEE5CF200C623EC /* Supporting Files */,
+				8E829EEA1DEE633E00C623EC /* PrefixHeader.pch */,
+			);
+			path = CustomTranformDemo;
+			sourceTree = "<group>";
+		};
+		8E829EC21DEE5CF200C623EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E829EC31DEE5CF200C623EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E829EDB1DEE5CF200C623EC /* CustomTranformDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E829EDC1DEE5CF200C623EC /* CustomTranformDemoTests.m */,
+				8E829EDE1DEE5CF200C623EC /* Info.plist */,
+			);
+			path = CustomTranformDemoTests;
+			sourceTree = "<group>";
+		};
+		BCEFD6D0AFF64C74E9D9FEA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA221863D5E9DB0D0919084 /* Pods-CustomTranformDemo.debug.xcconfig */,
+				049BADBC637BA36E450EC9C9 /* Pods-CustomTranformDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E829EBE1DEE5CF200C623EC /* CustomTranformDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E829EE11DEE5CF200C623EC /* Build configuration list for PBXNativeTarget "CustomTranformDemo" */;
+			buildPhases = (
+				F6D89244C9F19EAC5AEAB954 /* [CP] Check Pods Manifest.lock */,
+				8E829EBB1DEE5CF200C623EC /* Sources */,
+				8E829EBC1DEE5CF200C623EC /* Frameworks */,
+				8E829EBD1DEE5CF200C623EC /* Resources */,
+				FE0FAB12FDE5AD7AF339D6D4 /* [CP] Embed Pods Frameworks */,
+				30CF5C3E21488E2FD4D82CCC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTranformDemo;
+			productName = CustomTranformDemo;
+			productReference = 8E829EBF1DEE5CF200C623EC /* CustomTranformDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E829ED71DEE5CF200C623EC /* CustomTranformDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E829EE41DEE5CF200C623EC /* Build configuration list for PBXNativeTarget "CustomTranformDemoTests" */;
+			buildPhases = (
+				8E829ED41DEE5CF200C623EC /* Sources */,
+				8E829ED51DEE5CF200C623EC /* Frameworks */,
+				8E829ED61DEE5CF200C623EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E829EDA1DEE5CF200C623EC /* PBXTargetDependency */,
+			);
+			name = CustomTranformDemoTests;
+			productName = CustomTranformDemoTests;
+			productReference = 8E829ED81DEE5CF200C623EC /* CustomTranformDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E829EB71DEE5CF200C623EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = KuXing;
+				TargetAttributes = {
+					8E829EBE1DEE5CF200C623EC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 89U5Q5C735;
+						ProvisioningStyle = Automatic;
+					};
+					8E829ED71DEE5CF200C623EC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 89U5Q5C735;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E829EBE1DEE5CF200C623EC;
+					};
+				};
+			};
+			buildConfigurationList = 8E829EBA1DEE5CF200C623EC /* Build configuration list for PBXProject "CustomTranformDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E829EB61DEE5CF200C623EC;
+			productRefGroup = 8E829EC01DEE5CF200C623EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E829EBE1DEE5CF200C623EC /* CustomTranformDemo */,
+				8E829ED71DEE5CF200C623EC /* CustomTranformDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E829EBD1DEE5CF200C623EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E829ED21DEE5CF200C623EC /* LaunchScreen.storyboard in Resources */,
+				8E829ECF1DEE5CF200C623EC /* Assets.xcassets in Resources */,
+				8E829ECD1DEE5CF200C623EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E829ED61DEE5CF200C623EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30CF5C3E21488E2FD4D82CCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomTranformDemo/Pods-CustomTranformDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D89244C9F19EAC5AEAB954 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0FAB12FDE5AD7AF339D6D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomTranformDemo/Pods-CustomTranformDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E829EBB1DEE5CF200C623EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E829ECA1DEE5CF200C623EC /* ViewController.m in Sources */,
+				8E829EED1DEE70D100C623EC /* HLCustomTrantions.m in Sources */,
+				8E829EC71DEE5CF200C623EC /* AppDelegate.m in Sources */,
+				8E829EC41DEE5CF200C623EC /* main.m in Sources */,
+				8E829EE91DEE5D1500C623EC /* TwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E829ED41DEE5CF200C623EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E829EDD1DEE5CF200C623EC /* CustomTranformDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E829EDA1DEE5CF200C623EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E829EBE1DEE5CF200C623EC /* CustomTranformDemo */;
+			targetProxy = 8E829ED91DEE5CF200C623EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E829ECB1DEE5CF200C623EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E829ECC1DEE5CF200C623EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E829ED01DEE5CF200C623EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E829ED11DEE5CF200C623EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E829EDF1DEE5CF200C623EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E829EE01DEE5CF200C623EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E829EE21DEE5CF200C623EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA221863D5E9DB0D0919084 /* Pods-CustomTranformDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89U5Q5C735;
+				GCC_PREFIX_HEADER = /Users/a123456/Desktop/CustomTranformDemo/CustomTranformDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = CustomTranformDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuXing.CustomTranformDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E829EE31DEE5CF200C623EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049BADBC637BA36E450EC9C9 /* Pods-CustomTranformDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89U5Q5C735;
+				GCC_PREFIX_HEADER = /Users/a123456/Desktop/CustomTranformDemo/CustomTranformDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = CustomTranformDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuXing.CustomTranformDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E829EE51DEE5CF200C623EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 89U5Q5C735;
+				INFOPLIST_FILE = CustomTranformDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuXing.CustomTranformDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTranformDemo.app/CustomTranformDemo";
+			};
+			name = Debug;
+		};
+		8E829EE61DEE5CF200C623EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 89U5Q5C735;
+				INFOPLIST_FILE = CustomTranformDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuXing.CustomTranformDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTranformDemo.app/CustomTranformDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E829EBA1DEE5CF200C623EC /* Build configuration list for PBXProject "CustomTranformDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E829EDF1DEE5CF200C623EC /* Debug */,
+				8E829EE01DEE5CF200C623EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E829EE11DEE5CF200C623EC /* Build configuration list for PBXNativeTarget "CustomTranformDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E829EE21DEE5CF200C623EC /* Debug */,
+				8E829EE31DEE5CF200C623EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E829EE41DEE5CF200C623EC /* Build configuration list for PBXNativeTarget "CustomTranformDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E829EE51DEE5CF200C623EC /* Debug */,
+				8E829EE61DEE5CF200C623EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E829EB71DEE5CF200C623EC /* Project object */;
+}
